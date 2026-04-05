@@ -23,7 +23,22 @@ print(catalog)
 
 #2 from catalog, create new dictionary category_to_products that maps each category to a list of product names in that category
 category_to_products = {}
-for product,price,category in catalog:
-    category_to_products[category] = []
+
+for product, price, category in catalog:
+    if category not in category_to_products:
+        category_to_products[category] = []
+    category_to_products[category].append(product)
 
 print('Category Products',category_to_products)
+
+
+# print all products that belong to the category that has maximum number of products
+maxProductsLen = 0
+for category,products in category_to_products.items():
+    print(category)
+    if len(products) > maxProductsLen:
+        maxProducts = products
+        maxProductsLen = len(products)
+        
+for elem in maxProducts:
+    print(elem)
