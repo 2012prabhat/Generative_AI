@@ -5,3 +5,4 @@ autopep8
 # App
 google-genai # Client library for the Gemini API
 Pillow # PIL image-loading library
+numpy
