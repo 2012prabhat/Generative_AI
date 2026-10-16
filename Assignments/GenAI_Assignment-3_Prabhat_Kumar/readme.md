@@ -6,9 +6,13 @@ This repository contains solutions for 4 different tasks implemented in Python.
 
 The project includes the following files:
 
-* `task_1_basic_function.py` → Solution for Task 1
-* `task_2_recursive_function.py` → Solution for Task 2
-* `task_3_lambda_function.py` → Solution for Task 3
+- `task_1_basic_function.py` → Solution for Task 1
+- `task_2_recursive_function.py` → Solution for Task 2
+- `task_3_lambda_function.py` → Solution for Task 3
+- `task_4_using_map.py` → Solution for Task 4
+- `task_5_filter.py` → Solution for Task 5
+- `task_6_combined_utility.py` → Solution for Task 6
+- `task_7_mini_problem.py` → Solution for Task 7
 
 ## 🚀 How to Run
 
@@ -23,8 +27,7 @@ py filename.py
 
 ## 📌 Requirements
 
-* Python 3.x
-
+- Python 3.x
 
 ## 👨‍💻 Author
 
