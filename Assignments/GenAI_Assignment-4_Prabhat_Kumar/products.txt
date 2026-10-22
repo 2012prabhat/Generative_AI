@@ -1,0 +1,4 @@
+ProductName|Price
+Mobile |10000
+Television|40000
+Computer|30000
